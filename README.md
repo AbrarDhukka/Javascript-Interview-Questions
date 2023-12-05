@@ -1,10 +1,5 @@
 # Javascript Interview Question Answer
 
-
-
-
-### Scope
-
 var:
 
 Scope: Global 
