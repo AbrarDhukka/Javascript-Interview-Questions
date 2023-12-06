@@ -1,5 +1,16 @@
 # Javascript Interview Question Answer
 
+
+##  Exciting ES6 JavaScript Features!
+
+- Arrow functions
+- Multi-line Strings
+- Destructuring Assignment
+- Enhanced Object Literals
+- Promises
+- Let and Const Keywords
+
+
 var:
 
 - Scope: Global 
