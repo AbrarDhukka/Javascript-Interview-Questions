@@ -46,7 +46,8 @@ Syntax : Array.map((currentValue, index, OriginalArray)=>{
     logic
 })
   - Map Polyfill
-    - ``` 
+    - 
+    ``` 
     Array.prototype.myMap =function (cb){
     let temp =[];
     for (let i =0; i<this.length ; i++>){
@@ -61,7 +62,8 @@ Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
     condition
 })
   - Filter polyfill
-    - ``` 
+    - 
+    ``` 
     Array.prototype.myFilter = function (cb){
     let temp = [];
     for (let i = 0; i < this.length; i++) {
