@@ -45,7 +45,7 @@ https://www.freecodecamp.org/news/what-is-hoisting-in-javascript-3/
 Syntax : Array.map((currentValue, index, OriginalArray)=>{
     logic
 })
-- Map Polyfill
+- - Map Polyfill
  Array.prototype.myMap =function (cb){
     let temp =[];
     for (let i =0; i<this.length ; i++>){
@@ -58,7 +58,7 @@ Syntax : Array.map((currentValue, index, OriginalArray)=>{
 Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
     condition
 })
-- Filter polyfill
+- - Filter polyfill
 Array.prototype.myFilter = function (cb){
     let temp = [];
     for (let i = 0; i < this.length; i++) {
