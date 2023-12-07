@@ -40,3 +40,19 @@ https://www.freecodecamp.org/news/what-is-hoisting-in-javascript-3/
 
 
 ##  map vs filter vs reduce
+
+- Map is used to create new array from existing one by applying callback function on each of its element.
+Syntax : Array.map((currentValue, index, OriginalArray)=>{
+    logic
+})
+
+- Filter is used to take array elems and based on given condition it will decide whether it need to push it to new array or remove it.
+Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
+    condition
+})
+
+
+- reduce used to reduce the array to a single value and executes a provided function for each value of the array (from left to right) and the return value of the function is stored in an accumulator. 
+Syntax : Array.reduce ((accum, index, currentValue, OriginalArray)=>{
+    return Logic;
+}, initialValue)
