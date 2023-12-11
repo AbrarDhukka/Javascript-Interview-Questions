@@ -90,3 +90,7 @@ Polyfill
 - - map() is chainable. This means that you can attach reduce(), sort(), filter() methods, That's something you can't do with forEach() because, as you might guess, it returns undefined.
 
 - - map is immutable, it doesnt modify original array, while forEach is mutable, it can modify original array
+
+- - As always, the choice between map() and forEach() will depend on your use case. If you plan to change, alternate, or use the data, you should pick map(), because it returns a new array with the transformed data.
+
+But, if you won't need the returned array, don't use map() - instead use forEach() or even a for loop.
