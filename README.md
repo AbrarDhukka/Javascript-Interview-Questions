@@ -80,3 +80,13 @@ Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
 Syntax : Array.reduce ((accum, index, currentValue, OriginalArray)=>{
     return Logic;
 }, initialValue)
+
+Polyfill
+
+- map vs forEach difference
+
+- - map returns new array with transformed elements, foreach returns undefined , it doesnt create new array
+
+- - map() is chainable. This means that you can attach reduce(), sort(), filter() methods, That's something you can't do with forEach() because, as you might guess, it returns undefined.
+
+- - map is immutable, it doesnt modify original array, while forEach is mutable, it can modify original array
