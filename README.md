@@ -54,7 +54,8 @@ Syntax : Array.map((currentValue, index, OriginalArray)=>{
         temp.push(cb(this[i], i, this));
     }
     return temp;
- } ```
+ } 
+ 
 - Filter is used to take array elems and based on given condition it will decide whether it need to push it to new array or remove it.
 Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
     condition
