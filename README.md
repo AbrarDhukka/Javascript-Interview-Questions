@@ -53,9 +53,8 @@ Syntax : Array.map((currentValue, index, OriginalArray)=>{
     for (let i =0; i<this.length ; i++>){
         temp.push(cb(this[i], i, this));
     }
-    return temp;
- } 
- 
+    return temp;} 
+
 - Filter is used to take array elems and based on given condition it will decide whether it need to push it to new array or remove it.
 Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
     condition
@@ -71,8 +70,7 @@ Syntax : Array.filter ((currentValue, index, OriginalArray)=>{
         }
         
     };
-    return temp;
-}; ```
+    return temp;}
 
 
 - reduce used to reduce the array to a single value and executes a provided function for each value of the array (from left to right) and the return value of the function is stored in an accumulator. 
