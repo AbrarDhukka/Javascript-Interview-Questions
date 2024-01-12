@@ -20,10 +20,10 @@
 
 ### let:
 
-- Scope: Functional/Block 
-- Shadowing: Possible outside scope, illegal inside 
-- Declaration: Can declare without initialization
-- Re-init/Update: Can be updated 
+- Scope: Functional/Block .
+- Shadowing: Possible outside scope, illegal inside. 
+- Declaration: Can declare without initialization.
+- Re-init/Update: Can be updated .
 
 ### const:
 
