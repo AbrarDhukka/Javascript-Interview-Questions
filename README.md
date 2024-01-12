@@ -2,12 +2,12 @@
 
 ##  Exciting ES6 JavaScript Features!
 
-- Arrow functions
-- Multi-line Strings
-- Destructuring Assignment
-- Enhanced Object Literals
-- Promises
-- Let and Const Keywords
+- Arrow functions.
+- Multi-line Strings.
+- Destructuring Assignment.
+- Enhanced Object Literals.
+- Promises.
+- Let and Const Keywords.
 
 ##  var vs let vs const
 
