@@ -13,10 +13,10 @@
 
 ### var:
 
-- Scope: Global 
-- Shadowing: Possible 
-- Declaration: Can declare without initialization 
-- Re-init/Update: Can be updated 
+- Scope: Global .
+- Shadowing: Possible. 
+- Declaration: Can declare without initialization. 
+- Re-init/Update: Can be updated .
 
 ### let:
 
