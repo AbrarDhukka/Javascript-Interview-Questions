@@ -34,7 +34,7 @@
 
 ## Hoisting and temporal deadzone
 
-Hoisting for var,const,let
+Hoisting for var, const, let
 https://www.freecodecamp.org/news/what-is-hoisting-in-javascript-3/
 
 ## map vs filter vs reduce
